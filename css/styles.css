@@ -1,0 +1,495 @@
+.grande {
+  font-size: 20px;
+}
+
+.grande {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+}
+
+* {
+  margin: 0;
+}
+
+.licontainer {
+  font-size: 25px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: white;
+}
+
+img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.navbar {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  display: inline;
+}
+
+.fixed {
+  height: 100px;
+  width: 150px;
+  position: fixed;
+  left: 1500px;
+}
+
+.logo {
+  height: 100%;
+  width: 100%;
+}
+
+#areadetexto {
+  display: block;
+  margin-top: 10px;
+}
+
+.texto {
+  margin-top: 30px;
+}
+
+#email {
+  display: block;
+  margin-top: 10px;
+}
+
+fieldset {
+  background-color: darkcyan;
+}
+
+legend {
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+iframe {
+  margin-top: 40px;
+}
+
+.carta1 {
+  margin-top: 110px;
+  background-color: black;
+  text-align: center;
+  color: aliceblue;
+  text-decoration: solid;
+  margin-left: 20px;
+}
+
+.carta2 {
+  margin-top: 100px;
+  background-color: black;
+  color: aliceblue;
+  margin-left: 20px;
+}
+
+.carta3 {
+  margin-top: 100px;
+  background-color: black;
+  text-align: center;
+  color: aliceblue;
+  margin-left: 20px;
+}
+
+body {
+  background-color: white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+body {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/007/739/493/non_2x/soccer-logo-template-illustration-suitable-for-sport-tournament-championship-etc-vector.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+@media (max-width: 768px) {
+  body {
+    background-size: contain;
+  }
+}
+
+.navbar {
+  background-color: white;
+  padding: 10px;
+}
+
+.navbar-brand {
+  color: #222;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("https://i.pinimg.com/originals/66/ba/64/66ba6488399f0e6e3e469bc0efef19cb.jpg");
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-link {
+  color: #222;
+  font-size: 18px;
+  text-decoration: none;
+  margin-left: 50px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffbf00;
+}
+
+.btn.btn-custom {
+  background-color: green;
+}
+
+@media (max-width: 767px) {
+  .card-body {
+    text-align: center;
+  }
+  .card {
+    width: 100%;
+  }
+  .card .card-img-top {
+    width: 100%;
+  }
+}
+fieldset {
+  border: none;
+  padding: 20px;
+  background-color: black;
+  margin-top: 15px;
+}
+fieldset legend {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+fieldset h2 {
+  color: white;
+}
+fieldset form .form-group {
+  margin-bottom: 20px;
+}
+fieldset form .form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+fieldset form textarea.form-control {
+  height: 100px;
+}
+fieldset form .btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+fieldset form .btn-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+fieldset form .btn-secondary {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.map-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.horario-atencion {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: bisque;
+}
+.horario-atencion th, .horario-atencion td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.horario-atencion th {
+  background-color: #f2f2f2;
+}
+.horario-atencion tr:last-child td {
+  border-bottom: none;
+}
+
+.catalogo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+.catalogo .producto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.catalogo .producto img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+.catalogo .producto h3 {
+  margin-top: 10px;
+  font-size: 16px;
+}
+.catalogo .producto p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+.catalogo .producto .btn-agregar {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+.catalogo .producto .btn-agregar:hover {
+  background-color: darkgreen;
+}
+
+.politicas {
+  display: grid;
+  grid-template-columns: auto auto;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 100px;
+}
+.politicas th, .politicas td {
+  border: 1px solid black;
+  padding: 8px;
+}
+.politicas th {
+  background-color: #f2f2f2;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+.catalogo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+.catalogo .producto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+.catalogo .producto img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+.catalogo .producto .btn-agregar {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+.catalogo .producto .btn-agregar:hover {
+  background-color: darkgreen;
+}
+
+.guia-talles {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 100px;
+}
+.guia-talles h2 {
+  text-align: center;
+}
+.guia-talles table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+.guia-talles table th, .guia-talles table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+.guia-talles table th {
+  background-color: #f2f2f2;
+}
+
+table td {
+  background-color: white;
+}
+
+.container #carouselExampleCaptions .carousel-indicators button.active {
+  background-color: #000;
+}
+.container #carouselExampleCaptions .carousel-inner .carousel-item {
+  position: relative;
+}
+.container #carouselExampleCaptions .carousel-inner .carousel-item img {
+  width: 100%;
+  height: auto;
+}
+.container #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+.container #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption h5 {
+  font-size: 18px;
+  margin: 0;
+}
+.container #carouselExampleCaptions .carousel-inner .carousel-item.active {
+  display: flex;
+  align-items: center;
+}
+.container #carouselExampleCaptions .carousel-control-prev,
+.container #carouselExampleCaptions .carousel-control-next {
+  width: 5%;
+  opacity: 0.8;
+}
+.container #carouselExampleCaptions .carousel-control-prev:hover,
+.container #carouselExampleCaptions .carousel-control-next:hover {
+  opacity: 1;
+}
+.container #carouselExampleCaptions .carousel-control-prev span,
+.container #carouselExampleCaptions .carousel-control-next span {
+  font-size: 2rem;
+}
+.container #carouselExampleCaptions .carousel-control-prev-icon,
+.container #carouselExampleCaptions .carousel-control-next-icon {
+  background-color: #000;
+  padding: 15px;
+  border-radius: 50%;
+}
+.container #carouselExampleCaptions .carousel-control-prev {
+  left: -2%;
+}
+.container #carouselExampleCaptions .carousel-control-next {
+  right: -2%;
+}
+
+.card {
+  width: 50%;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+.card.card1 {
+  background-color: black;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.card.card2 {
+  background-color: black;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.card .card-body {
+  padding: 20px;
+}
+.card .card-body .card-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.card .card-body .card-text {
+  margin-bottom: 15px;
+}
+.card .card-body .btn {
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+.card .card-body .btn.btn-success {
+  background-color: #28a745;
+  color: #fff;
+}
+.card .card-body .btn.btn-info {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+.guia-talles table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #28a745;
+}
+.guia-talles table th, .guia-talles table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+.guia-talles table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+.guia-talles table td {
+  font-size: 14px;
+}
+
+footer {
+  background-color: black;
+  height: 100%;
+  margin-top: 20%;
+  color: white;
+}
+
+#Footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+#Footer .grande {
+  font-size: 20px;
+}
+#Footer .licontainer {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+@media (max-width: 768px) {
+  #Footer {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
